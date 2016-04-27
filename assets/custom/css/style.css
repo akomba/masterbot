@@ -1211,6 +1211,24 @@ ul.sf-menu > li, .sf-menu > li > a {
   left: 0;
   z-index: 999;
   box-sizing: border-box; }
+  
+  .sticky-header img{
+    display: block;
+  }
+  
+  .sticky-header img.dark{
+    display: none;
+  }
+  
+   .is-sticky  .sticky-header img{
+    display: none;
+  }
+  
+  .is-sticky .sticky-header img.dark{
+    display: block;
+  }
+  
+  
 
 #header-wrapper-mp .is-sticky .sticky-header {
   filter: alpha(opacity=90);
