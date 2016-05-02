@@ -39,7 +39,7 @@
                 },
                 arrows: {
                     style: "hades",
-                    enable: true,
+                    enable: false,
                     hide_onmobile: true,
                     hide_onleave: true,
                     tmp: '',
@@ -58,7 +58,7 @@
                 },
                 bullets: {
                     style: "",
-                    enable: true,
+                    enable: false,
                     hide_onmobile: false,
                     hide_onleave: true,
                     hide_delay: 200,
